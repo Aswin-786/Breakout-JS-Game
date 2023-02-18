@@ -1,1 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(45deg, rgb(177, 148, 255), rgb(209, 142, 254));
+  width: 100%;
+  height: 100vh;
+}
+
+.game-box{
+  position: relative;
+  width: 560px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  background: linear-gradient(135deg, rgb(68, 0, 255), rgb(153, 0, 255));
+}
+
+.block {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background: linear-gradient(180deg, rgb(242, 245, 151), rgb(240, 134, 224));
+  border-radius: 10px;
+
+}
+
+.user {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background: linear-gradient(180deg, rgb(43, 232, 249), rgb(61, 253, 163));
+  border-radius: 10px;
+
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: yellow;
+}
